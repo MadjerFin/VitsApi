@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(dir:*)",
+      "Bash(nul)",
+      "Bash(tree:*)",
+      "Bash(powershell -Command \"Get-Content ''c:\\Users\\mhfinamor\\OneDrive - Telesul Telecomunicações Ltda\\Área de Trabalho\\VitsApi\\docker-compose.yml''\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
