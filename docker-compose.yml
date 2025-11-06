@@ -2,7 +2,9 @@ version: '3.8'
 
 services:
   app:
-    build: .
+    build:
+      context: ./vits-agrochain
+      dockerfile: ../Dockerfile
     ports:
       - "80:8080"
     container_name: vitsapi
