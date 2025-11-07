@@ -36,10 +36,9 @@ sudo usermod -aG docker rm560716
 newgrp docker
 ```
 
-### 7. Corrigir permissões (caso necessário)
+### 7. Iniciar docker
 ```bash
-sudo chown root:docker /var/run/docker.sock
-sudo chmod 660 /var/run/docker.sock
+sudo systemctl enable --now docker
 ```
 
 ### 8. Testar a instalação
