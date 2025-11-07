@@ -5,7 +5,7 @@ Aplicação Java 17 + Spring Boot 3 minimalista para demonstrar Dockerfile e doc
 
 ### 1. Login na VM
 ```bash
-ssh rm560716@172.177.20.228
+ssh rm560716@68.154.30.168
 ```
 
 ### 2. Atualizar sistema e baixar pacotes necessários
@@ -67,5 +67,5 @@ docker compose ps
 
 ### 12. Acessar o projeto
 ```
-http://172.177.20.228:80
+http://68.154.30.168:80
 ```
