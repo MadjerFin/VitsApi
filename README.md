@@ -10,7 +10,7 @@ ssh rm560716@68.154.30.168
 
 ### 2. Atualizar sistema e baixar pacotes necessários
 ```bash
-sudo atp update
+sudo dnf update
 sudo dnf update -y
 sudo dnf install -y yum-utils
 ```
