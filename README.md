@@ -32,7 +32,7 @@ sudo systemctl status docker
 
 ### 6. Liberar uso sem sudo
 ```bash
-sudo usermod -aG docker rm560716
+sudo usermod -aG docker madjer
 newgrp docker
 ```
 
@@ -67,5 +67,5 @@ docker compose ps
 
 ### 12. Acessar o projeto
 ```
-http://172.177.226.172:80
+http://172.177.226.172/swagger-ui/index.html#/
 ```
